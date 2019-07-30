@@ -8,7 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/assignments/function-conversion.js"
+            "program": "${workspaceFolder}/assignments/arrays.js"
+            
         }
     ]
 }
