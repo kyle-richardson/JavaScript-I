@@ -18,24 +18,79 @@ const example = {
 }
 
 // Write your intern objects here:
+const interns = [];
 
+interns[0] = {
+  "id": 1,
+  "name": "Mitzi",
+  "email": "mmelloy0@psu.edu",
+  "gender": "F"
+}
+interns[1] = {
+  "id": 2,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M"
+}
+
+interns[2] = {
+  "id": 3,
+  "name": "Keven",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "M"
+}
+
+interns[3] = {
+  "id": 4,
+  "name": "Gannie",
+  "email": "gmartinson3@illinois.edu",
+  "gender": "M"
+}
+
+interns[4] = {
+  "id": 5,
+  "name": "Antonietta",
+  "email": "adaine5@samsung.com",
+  "gender": "F"
+}
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
-// Mitzi's name
 
-// Kennan's ID
-
-// Keven's email
-
-// Gannie's name
-
-// Antonietta's Gender
+for (let i=0; i<interns.length; i++) {
+  // Mitzi's name
+  if (interns[i].name == "Mitzi"){
+    console.log('Mitzi\'s name: ' + interns[i].name);
+  }
+  // Kennan's ID
+  if (interns[i].name == "Kennan"){
+    console.log('Kennan\'s ID: ' + interns[i].id);
+  }
+  // Keven's email
+  if (interns[i].name == "Keven"){
+    console.log('Keven\'s email: ' + interns[i].email);
+  }
+  // Gannie's name
+  if (interns[i].name == "Gannie"){
+    console.log('Gannie\'s name: ' + interns[i].name);
+  }
+  // Antonietta's Gender
+  if (interns[i].name == "Antonietta"){
+    console.log('Antonietta\'s gender: ' + interns[i].gender);
+  }
+}
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
+let speak = (str) => str;
+
+for (let i=0; i<interns.length; i++) {
+  if (interns[i].name == "Kennan"){
+    console.log('Kennan says: ' + speak("Hello, my name is Kennan"));
+  }
+}
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
