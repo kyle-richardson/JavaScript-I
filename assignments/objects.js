@@ -10,12 +10,12 @@
 // 5,adaine5@samsung.com,Antonietta,F
 
 // Example format of an intern object: 1,examples@you.edu,Example,F
-const example = {
-  "id": 0,
-  "name": "Example",
-  "email": "examples@you.edu",
-  "gender": "F"
-}
+// const example = {
+//   "id": 0,
+//   "name": "Example",
+//   "email": "examples@you.edu",
+//   "gender": "F"
+// }
 
 // Write your intern objects here:
 const interns = [];
@@ -85,15 +85,6 @@ for (let i=0; i<interns.length; i++) {
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-// function person(str) {
-//   this.name = str;
-//   this.speak = function() {
-//     return "Hello, my name is " + this.name + "!";
-//   }
-//   this.multiply = function(num1, num2) {
-//     return num1 * num2;
-//   }
-// }
 
 var kennan = interns[1];
 interns[1].speak = function() {
@@ -104,7 +95,6 @@ console.log(kennan.speak());
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
 
-// let antonietta = new person("antonietta");
 var antonietta = interns[4];
 interns[4].multiply = function(num1, num2) {
   return num1 * num2;
