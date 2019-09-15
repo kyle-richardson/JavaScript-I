@@ -128,7 +128,7 @@ const parent = {
       age: 30,
       speak: function() {
         return "My name is " + this.name;
-        }
+      }
     }
   },
   

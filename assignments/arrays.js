@@ -82,6 +82,7 @@ for (let i = 0; i < inventory.length; i++) {
 
 carModels.sort();
 
+
 for (let i = 0; i < carModels.length; i++) {
     stringModel += carModels[i];
     if (i != carModels.length-1) {
